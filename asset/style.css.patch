@@ -1,0 +1,93 @@
+=======
+
+.kawaii-gift-box {
+-    display: block;
+-    opacity: 1;
+-    position: relative;
+-    width: 180px;
+-    height: 160px;
+-    margin: 0 auto;
+-    animation: softBounce 3s infinite ease-in-out;
+-    transition: opacity 0.8s ease;
++    display: block;
++    opacity: 1;
++    position: relative;
++    width: 180px;
++    height: 160px;
++    margin: 0 auto;
++    animation: softBounce 3s infinite ease-in-out;
++    transition: opacity 0.8s ease;
++    background-color: #ff69b4; /* Pink background */
++    border-radius: 15px;
++    box-shadow: 0 0 8px rgba(255, 105, 180, 0.7);
+}
+
+=======
+
+.ribbon-v {
+-    width: 30px;
+-    height: 180px;
+-    background: #0ea5e6;
+-    position: absolute;
+-    left: 75px;
+-    border-radius: 10px;
+-    z-index: 2;
+-    animation: ribbonShimmer 4s infinite alternate;
++    width: 30px;
++    height: 180px;
++    background: #d4af37; /* Gold */
++    position: absolute;
++    left: 75px;
++    border-radius: 10px;
++    z-index: 2;
++    animation: ribbonShimmer 4s infinite alternate;
+}
+
+=======
+
+.ribbon-h {
+-    width: 180px;
+-    height: 30px;
+-    background: #66fcff;
+-    position: absolute;
+-    top: 65px;
+-    border-radius: 10px;
+-    z-index: 2;
+-    animation: ribbonShimmer 4s infinite alternate;
++    width: 180px;
++    height: 30px;
++    background: #d4af37; /* Gold */
++    position: absolute;
++    top: 65px;
++    border-radius: 10px;
++    z-index: 2;
++    animation: ribbonShimmer 4s infinite alternate;
+}
+
+=======
+
+@keyframes ribbonShimmer {
+-    0% { background: #ffe666; }
+-    100% { background: #fff0a3; }
++    0% { background: #ffd700; }
++    100% { background: #fffacd; }
+}
+
+=======
+
+.bow {
+-    width: 55px;
+-    height: 30px;
+-    background: #ffe666;
+-    border-radius: 30px 30px 10px 10px;
+-    position: absolute;
+-    top: -25px;
+-    z-index: 3;
++    width: 55px;
++    height: 30px;
++    background: #d4af37; /* Gold */
++    border-radius: 30px 30px 10px 10px;
++    position: absolute;
++    top: -25px;
++    z-index: 3;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kala Birthday Letter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+    <!-- Custom Background Images -->
+    <div class="custom-background homepage-bg" id="homepage-bg"></div>
+    <div class="custom-background letter-bg" id="letter-bg"></div>
+    
+    <!-- Background Elements -->
+    <div id="background-snakes"></div>
+    <div id="doodle-snakes"></div>
+    <div id="floating-elements"></div>
+
+    <!-- Homepage: Envelope -->
+    <div id="homepage" class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope gift" id="envelope">
+                <!-- KOTAK KADO KAWAII -->
+                <div class="kawaii-gift-box">
+                    <div class="ribbon-v"></div>
+                    <div class="ribbon-h"></div>
+                    <div class="bow left"></div>
+                    <div class="bow right"></div>
+
+                    <div class="face">
+                        <div class="eye"></div>
+                        <div class="eye"></div>
+                        <div class="smile"></div>
+                        <div class="blush b1"></div>
+                        <div class="blush b2"></div>
+                    </div>
+                </div>
+                <!-- Kado Kawaii Ketika Terbuka -->
+                <div class="kawaii-gift-open hidden" id="kawaii-gift-open">
+                    <div class="open-lid left"></div>
+                    <div class="open-lid right"></div>
+                    <div class="open-box"></div>
+
+                    <!-- Magic Glow -->
+                    <div class="magic-glow"></div>
+
+                    <!-- Surat Kawaii Muncul -->
+                    <div class="cute-letter small-letter hidden" id="small-letter">
+                        <div class="letter-top"></div>
+                        <div class="letter-body">
+                            <div class="letter-face">
+                                <div class="l-eye"></div>
+                                <div class="l-eye"></div>
+                                <div class="l-smile"></div>
+                                <div class="l-blush lb1"></div>
+                                <div class="l-blush lb2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="instruction" id="instruction">Klik kotak kado!</p>
+        </div>
+    </div>
+
+    <!-- Letter Page -->
+    <div id="letter-page" class="letter-container hidden">
+        <div class="letter-content">
+            <div class="photo-container">
+                <div class="photo-placeholder">
+                    <img src="hero-kala.png" alt="Hero Kala" class="hero-kala-photo" />
+                </div>
+            </div>
+
+           <div class="letter-text">
+    <h1 class="letter-title">🥳 Happy Birthday, Kalaaa, My Fav Human! 🥳</h1>
+    
+    <p class="typing">Halo, Kala yang hari ini umurnya nambah tapi mukanya tetep cute😍😍</p>
+    <p>Semoga di umur +1 ini, hidup kamu jalannya makin <strong>chill</strong>, rezeki datangnya makin <em>sat set</em>, <strong>happy-nya</strong> nggak perlu dicari kemana-mana, tahu-tahu udah ada di depan mata.</p>
+
+    <p class="italic-text">I hope this year feels lighter — full of those quiet little moments that make you smile and think, "yep… even in this loud world, I'm still okay and enough."</p>
+    
+    <p>Aku selalu berdoa, semoga kamu selalu nemu tempat yang rasanya <strong>nyaman banget</strong> buat istirahat, buat ambil napas, buat jadi Kala yang nggak pakai topeng. Dan aku bener-bener berharap, aku bisa jadi salah satu tempat ternyaman itu 
+        (im sorry sama yazid waktu itu jujur sampe sekarang aku masih dihantui rasa bersalah🥲)</p>
+    
+    <div class="divider"></div>
+    
+    <p>Jujur, aku bersyukur banget lho. Di tengah dunia yang <em>nuntut</em> ini, di momen aku lagi down banget, aku nggak sengaja ketemu kamu. Dan cuma dengan jadi diri kamu sendiri yang seutuhnya, kamu bisa bikin aku ngerasa tenang dan senyaman ini.</p>
+    
+    <p>Iya, iya, aku tahu! Aku sering banget di-bully karena setahun lebih muda <span class="italic-text">(And honestly, I kinda miss those PDKT days too, hehe)</span>, tapi beneran, aku tetap ngerasa beruntung banget pernah ada di dekat kamu.</p>
+    
+    <div class="divider"></div>
+    
+    <p>Aku harap tahun ini aku masih bisa ya, ngasih kamu momen-momen yang nggak cuma bikin kamu ketawa, tapi juga yang bikin kamu benar-benar ngerasa:</p>
+    
+    <p class="quote-text">"Gue cukup, gue berharga, dan gue layak dicintai dengan cara yang paling lembut dan tulus."</p>
+    
+    <p class="center-text">So… happy birthday, ya, sayang🌷</p>
+    
+    <p class="italic-text">Semoga semua hal yang kamu simpan dalam diam, semua doa rahasia yang nggak pernah kamu ceritain ke siapa pun, tahun ini pelan-pelan nemuin jawaban dan jalannya 
+        (jangan lupa bisik-bisik ke aku ya, biar aku bisa ikutan seneng + sedihnya mwehehehe).</p>
+    </p>
+    
+    <p class="italic-text">And I hope I can stay close enough to see you find that happiness… the real kind, the soft kind, the kind that lasts💖.</p>
+</div>
+            <div class="letter-footer">
+<span class="lion-left static-lion">🦁</span>
+                <div class="music-controls">
+                    <button id="play-pause-btn" aria-label="Play/Pause music">⏸️</button>
+                    <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1" aria-label="Volume control" />
+                </div>
+                <span class="lion-right static-lion">🦁</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
